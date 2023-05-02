@@ -3,6 +3,7 @@ import random
 import string
 
 file_name = "****.txt"
+#Please put the file that is the security key in place of file_name and use it
 
 if os.path.isfile(file_name):
     user_input = input("The file already exists. Do you want to continue? (y/n): ")
